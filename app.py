@@ -10,8 +10,8 @@ st.write ("""Mi criterio para decidir qué libros han sido perfectos se basa mer
 image = Image.open("MejoresLibros.jpg")
 st.image(image, caption = "1.Trenza del mar esmeralda/2.El último elfo/3.La era del mito/4.Las mujeres Weyward/5.Mujeres que corren con los lobos/6.Diosas, brujas y vampiresas")
 
-texto = st.text_input("Escribe algo", "Este es mi texto")
-st.write("El texto escrito es", texto)
+texto = st.text_input("¿Cuál es tu libro favorito", "Escribe tu libro favorito")
+st.write("Tu libro favorito es:", texto)
 
 st.subheader("Ahora usemos 2 columnas")
 
