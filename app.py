@@ -7,8 +7,8 @@ st.header ("Este año he leído 24 libros, 6 de esos han sido perfectos.")
 
 st.write ("""Mi criterio para decidir qué libros han sido perfectos se basa meramente en mis gustos personales, como una lectora que disfruta de la temática fantástica y los ensayos de estudios feministas. Los libros que mencionaré no fueron necesariamente publicados este año, sino que corresponden a mi momento de lectura. Los recomiendo ampliamente.""")
 
-image = Image.open("EladioCarrion.jpg")
-st.image(image, caption = "Eladio el bromas Carrion")
+image = Image.open("MejoresLibros.jpg")
+st.image(image, caption = "1.Trenza del mar esmeralda/2.El último elfo/3.La era del mito/4.Las mujeres Weyward/5.Mujeres que corren con los lobos/6.Diosas, brujas y vampiresas")
 
 texto = st.text_input("Escribe algo", "Este es mi texto")
 st.write("El texto escrito es", texto)
