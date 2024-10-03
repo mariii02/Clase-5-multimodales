@@ -13,7 +13,6 @@ st.image(image, caption = "1.Trenza del mar esmeralda/2.El último elfo/3.La era
 texto = st.text_input("¿Cuál es tu libro favorito?", "Escribe tu libro favorito")
 st.write("Tu libro favorito es:", texto)
 
-st.subheader("Ahora usemos 2 columnas")
 
 col1, col2 = st.columns(2)
 
