@@ -10,7 +10,7 @@ st.write ("""Mi criterio para decidir qué libros han sido perfectos se basa mer
 image = Image.open("MejoresLibros.jpg")
 st.image(image, caption = "1.Trenza del mar esmeralda/2.El último elfo/3.La era del mito/4.Las mujeres Weyward/5.Mujeres que corren con los lobos/6.Diosas, brujas y vampiresas")
 
-texto = st.text_input("¿Cuál es tu libro favorito", "Escribe tu libro favorito")
+texto = st.text_input("¿Cuál es tu libro favorito?", "Escribe tu libro favorito")
 st.write("Tu libro favorito es:", texto)
 
 st.subheader("Ahora usemos 2 columnas")
@@ -18,14 +18,14 @@ st.subheader("Ahora usemos 2 columnas")
 col1, col2 = st.columns(2)
 
 with col1:
-  st.subheader("Esta es la primera columna")
-  st.write("Las interfaces multimodales mejoran la experiencia de usuario")
+  st.subheader("Leer es muy importante")
+  st.write("¿Consideras que leer es muy importante?")
   resp = st.checkbox("Estoy de acuerdo")
   if resp:
     st.write("Correcto!")
 
 with col2:
-  st.subheader("Esta es la segunda columna")
+  st.subheader("Interfaz multimodal")
   modo = st.radio("Que modalidad es la principal en tu interfaz",("Visual","Auditiva", "Táctil"))
   if modo == "Visual":
     st.write("La vista es fundamental para tu interfaz")
